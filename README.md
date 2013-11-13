@@ -32,4 +32,11 @@ Move everything to the cloud
 6. Find replacement for Varnish for response caching for both iBL and Responsive-web (potentially CloudFront)
 7. Incorporate our current github Continuous Integration flow into the Cosmos + Jenkins system
 
-
+IBL version 2 architecture
+--------------------------
+1. Simplify the code
+2. Must be hosted on Cosmos from the get-go
+3. Enforce the separation between business logic, data access, and API infrastructure
+4. APIs must be validated through some form of API specification
+5. The iBL Service-Level-Agreement must be decoupled from the Service-Level-Agreements of dependent services, such as Nitro (need to convince Andy)
+6. In order to satisfy 5, we must move to an asynchronous / prefetch data model
