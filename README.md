@@ -1,7 +1,6 @@
 .plan
 =====
-
-This is where I make public all the random technical strategy / ongoing technical projects in my head at the moment.
+A collection of all the ongoing technical projects in the team
 
 Measure Everything
 ------------------
