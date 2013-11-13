@@ -1,5 +1,5 @@
-ThePlan
-=======
+.plan
+=====
 
 This is where I make public all the technical strategy / technical projects in my head at the moment.
 
