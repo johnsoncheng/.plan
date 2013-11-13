@@ -1,7 +1,7 @@
 .plan
 =====
 
-This is where I make public all the technical strategy / technical projects in my head at the moment.
+This is where I make public all the random technical strategy / ongoing technical projects in my head at the moment.
 
 Measure Everything
 ------------------
