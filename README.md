@@ -40,3 +40,23 @@ IBL version 2 architecture
 4. APIs must be validated through some form of API specification
 5. The iBL Service-Level-Agreement must be decoupled from the Service-Level-Agreements of dependent services, such as Nitro (need to convince Andy)
 6. In order to satisfy 5, we must move to an asynchronous / prefetch data model
+
+Reusable web components for mobile and TVP to embed
+---------------------------------------------------
+Currently it's pretty much impossible to introduce an iPlayer feature across all platforms at the same time. iBL helps with that, but not much.  
+
+
+
+Unify download functionality across platforms
+---------------------------------------------
+1. Unify the DRM solution on PlayReady
+2. Mobile applications need to allow deep-linking so the responsive web download link can open the right application based on the platform
+3. Signed and Audio-Described downloads should work across platforms
+4. Rationalise download rights across platform
+
+Open Source
+-----------
+1. Shaun's generic layout stuff for building AS3 SMP plugins
+2. iBL java library
+3. Responsive Web Design libraries
+4. 
