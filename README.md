@@ -12,6 +12,13 @@ Measure Everything
 4. Responsive-Web - send back any interesting data via statsd
 5. iBL - send back any interesting data via statsd
 
+Continuous Everything
+---------------------
+1. Hubson trigger builds for all our projects and need to run on Cosmos
+2. Must mirror code of live components from git to Forge SVN
+3. SONAR needs to work again for iBL on github
+4. 
+
 Gradually morph iPlayer into a client-side web application
 ----------------------------------------------------------
 Currently the iPlayer website is heavily dependent on response cache, i.e. Varnish, to be able to serve the amount of load we get in LIVE. As we make the product more and more personal, we will need to move more and more logic to the client side because it simply won't be scalable to produce a personalised page for every individual user.
@@ -44,7 +51,7 @@ IBL version 2 architecture
 Reusable web components for mobile and TVP to embed
 ---------------------------------------------------
 Currently it's pretty much impossible to introduce an iPlayer feature across all platforms at the same time. iBL helps with that, but not much.  
-
+Looking around the industry, companies like Facebook solve this problem by creating re-usable web components that can be easily embedded in the native mobile applications, and only write native-specific code when it's absolutely necessary.
 
 
 Unify download functionality across platforms
