@@ -1,6 +1,6 @@
 .plan
 =====
-A collection of all the ongoing and aspirational technical projects in the team
+A collection of all the ongoing and aspirational technical projects in the team, at least according to me.
 
 Measure Everything
 ------------------
