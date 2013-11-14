@@ -36,7 +36,7 @@ Move everything to the cloud
 3. Responsive-web needs to be migrate over to cloud / Cosmos - some open issues to solve, e.g. PHP, sass, static assets, etc.
 4. iPlayer Downloads needs to be hosted from S3
 5. iPlayer plugins (Tip) need to be hosted from the cloud
-6. Find replacement for Varnish for response caching for both iBL and Responsive-web (potentially CloudFront)
+6. Find replacement for Varnish (cause it's not on Cosmos at the moment) for response caching for both iBL and Responsive-web (potentially CloudFront)
 7. Incorporate our current github Continuous Integration flow into the Cosmos + Jenkins system
 
 IBL version 2 architecture
