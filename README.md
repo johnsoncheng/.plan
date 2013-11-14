@@ -6,7 +6,7 @@ Measure Everything
 ------------------
 
 1. statsd run on Cosmos
-2. UDP and REST endpoint for statsd
+2. UDP and HTTP endpoint for statsd
 3. Responsive-Web - send back all useful info from the client using Navigation Timing API - Need a list of what we want to track
 4. Responsive-Web - send back any interesting data via statsd
 5. iBL - send back any interesting data via statsd
