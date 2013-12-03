@@ -47,6 +47,7 @@ IBL version 2 architecture
 4. APIs must be validated through some form of API specification
 5. The iBL Service-Level-Agreement must be decoupled from the Service-Level-Agreements of dependent services, such as Nitro (need to convince Andy)
 6. In order to satisfy 5, we must move to an asynchronous / prefetch data model
+7. In a prefetch data model, three components can be decoupled and shipped separately:
  * API Layer - handles URL routing and retrieving the necessary data from the data store
  * Data Store - stores data in the iBL data model format
  * Data Fetcher - asynchronously fetch data from downstream sources, such as Nitro, RecEng, UserActivity, etc.
