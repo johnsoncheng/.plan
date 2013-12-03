@@ -60,7 +60,7 @@ Looking around the industry, companies like Facebook solve this problem by creat
 
 Unify download functionality across platforms
 ---------------------------------------------
-1. Unify the DRM solution on PlayReady
+1. Unify the DRM solution on PlayReady (will enable 30-days and BBC Store)
 2. Mobile applications need to allow deep-linking so the responsive web download link can open the right application based on the platform
 3. Signed and Audio-Described downloads should work across platforms
 4. Rationalise download rights across platform
