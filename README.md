@@ -47,6 +47,9 @@ IBL version 2 architecture
 4. APIs must be validated through some form of API specification
 5. The iBL Service-Level-Agreement must be decoupled from the Service-Level-Agreements of dependent services, such as Nitro (need to convince Andy)
 6. In order to satisfy 5, we must move to an asynchronous / prefetch data model
+ * API Layer - handles URL routing and retrieving the necessary data from the data store
+ * Data Store - stores data in the iBL data model format
+ * Data Fetcher - asynchronously fetch data from downstream sources, such as Nitro, RecEng, UserActivity, etc.
 
 Reusable web components for mobile and TVP to embed
 ---------------------------------------------------
@@ -60,6 +63,7 @@ Unify download functionality across platforms
 2. Mobile applications need to allow deep-linking so the responsive web download link can open the right application based on the platform
 3. Signed and Audio-Described downloads should work across platforms
 4. Rationalise download rights across platform
+5. Build using a cross-platform native framework such as Xamarin to create re-usable download components across mobile and PC
 
 Open Source
 -----------
